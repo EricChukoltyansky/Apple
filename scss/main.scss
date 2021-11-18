@@ -358,3 +358,24 @@ nav {
     }
   }
 }
+
+footer {
+  // display: flex;
+  // justify-content: center;
+  margin-top: 10px;
+  background-color: #F5F5F7;
+  p {
+    font-family: $main-font;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6e6e73;
+    padding-top: 8px;
+    a {
+      color: #6e6e73;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+}

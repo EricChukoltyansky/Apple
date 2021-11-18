@@ -359,3 +359,17 @@ nav {
       justify-content: center;
       color: #F8FAFC;
       font-size: 20px; }
+
+footer {
+  margin-top: 10px;
+  background-color: #F5F5F7; }
+  footer p {
+    font-family: "SF Pro Text Regular";
+    font-size: 12px;
+    line-height: 16px;
+    color: #6e6e73;
+    padding-top: 8px; }
+    footer p a {
+      color: #6e6e73; }
+    footer p a:hover {
+      text-decoration: underline; }
