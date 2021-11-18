@@ -183,8 +183,37 @@ nav {
     font-family: "SF Pro Text Regular";
     font-size: 25px;
     padding-top: 10px;
-    color: #E2ACD2; }
+    color: #e2acd2; }
   .page-3 a {
     color: #0066cc;
     align-items: flex-end;
     padding-top: 10px; }
+
+.page-4 {
+  margin-top: 10px;
+  height: 150vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px; }
+  .page-4 .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    background-image: url("/assets/img/tile_macbookpro__cx0ur0qg9biq_medium_2x.jpg");
+    background-size: cover;
+    background-position: center; }
+  .page-4 .div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    background: green; }
+  .page-4 .div3 {
+    grid-area: 2 / 1 / 3 / 2;
+    background: yellow; }
+  .page-4 .div4 {
+    grid-area: 2 / 2 / 3 / 3;
+    background: black; }
+  .page-4 .div5 {
+    grid-area: 3 / 1 / 4 / 2;
+    background: pink; }
+  .page-4 .div6 {
+    grid-area: 3 / 2 / 4 / 3;
+    background: brown; }
