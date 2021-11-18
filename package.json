@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "normalize": "^0.3.1",
+    "sass": "^1.43.4"
+  },
+  "name": "apple",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricChukoltyansky/Apple.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricChukoltyansky/Apple/issues"
+  },
+  "homepage": "https://github.com/EricChukoltyansky/Apple#readme",
+  "description": ""
+}

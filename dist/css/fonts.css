@@ -1,0 +1,69 @@
+/* fonts setup */
+@font-face {
+    font-family: "SF Pro Display Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("SF Pro Display Regular"), url("/assets/fonts/SFPRODISPLAYREGULAR.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Display Ultralight Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("SF Pro Display Ultralight Italic"), url("/assets/fonts/SFPRODISPLAYULTRALIGHTITALIC.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Display Thin Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("SF Pro Display Thin Italic"), url("/assets/fonts/SFPRODISPLAYTHINITALIC.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Display Light Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("SF Pro Display Light Italic"), url("/assets/fonts/SFPRODISPLAYLIGHTITALIC.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Display Medium";
+    font-style: normal;
+    font-weight: normal;
+    src: local("SF Pro Display Medium"), url("/assets/fonts/SFPRODISPLAYMEDIUM.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Display Semibold Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("SF Pro Display Semibold Italic"), url("/assets/fonts/SFPRODISPLAYSEMIBOLDITALIC.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Display Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("SF Pro Display Bold"), url("/assets/fonts/SFPRODISPLAYBOLD.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Display Heavy Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("SF Pro Display Heavy Italic"), url("/assets/fonts/SFPRODISPLAYHEAVYITALIC.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Display Black Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("SF Pro Display Black Italic"), url("/assets/fonts/SFPRODISPLAYBLACKITALIC.woff") format("woff");
+  }
+  @font-face {
+    font-family: "SF Pro Text Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("SF Pro Text Regular"), url("/assets/fonts/FontsFree-Net-SFProText-Regular-1.ttf") format("truetype");
+  }

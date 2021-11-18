@@ -1,0 +1,65 @@
+@font-face {
+  font-family: FSPRO;
+  src: url("/assets/fonts/SF-Pro.dmg"); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+nav {
+  width: 100vw;
+  text-align: center;
+  background: #333333; }
+  nav ul {
+    display: flex;
+    justify-content: center; }
+    nav ul li {
+      justify-content: space-between;
+      padding-right: 2.5rem;
+      list-style: none;
+      font-family: FSPRO;
+      color: #f5f5f7;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 44px; }
+
+.red-strip {
+  background: #e34140;
+  height: 4.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .red-strip p {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px; }
+    .red-strip p a {
+      color: #fefbfb; }
+
+.red-apple {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black; }
+  .red-apple img {
+    width: 4.5rem;
+    padding-top: 2rem; }
+
+.holiday-text {
+  border: 2px solid black;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 25px;
+  display: flex;
+  justify-content: center; }
+
+.shop-gifts {
+  display: flex;
+  justify-content: center; }
+  .shop-gifts a {
+    font-size: 21px;
+    font-weight: 400;
+    color: #0066cc; }
