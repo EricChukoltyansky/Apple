@@ -1,4 +1,5 @@
 /* fonts setup */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @font-face {
   font-family: "SF Pro Display Regular";
   font-style: normal;
@@ -194,7 +195,7 @@ nav {
 
 .page-4 {
   margin-top: 10px;
-  height: 160vh;
+  height: 200vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -208,21 +209,23 @@ nav {
     .page-4 .div1 header {
       display: flex;
       justify-content: center;
-      font-size: 60px;
+      font-size: 40px;
       font-family: "SF Pro Text Regular";
       font-weight: 800;
-      color: #1d1d1f; }
+      color: #1d1d1f;
+      padding-top: 45px; }
     .page-4 .div1 p {
       display: flex;
       justify-content: center;
       font-family: "SF Pro Text Regular";
-      font-size: 25px;
+      font-size: 20px;
       padding-top: 10px;
       color: #1d1d1f; }
     .page-4 .div1 a {
       color: #0066cc;
       align-items: flex-end;
-      padding-top: 10px; }
+      padding-top: 10px;
+      font-size: 15px; }
   .page-4 .div2 {
     grid-area: 1 / 2 / 2 / 3;
     background-image: url("/assets/img/tile_airpods__fuv6vgn42y2q_large.jpg");
@@ -231,21 +234,23 @@ nav {
     .page-4 .div2 header {
       display: flex;
       justify-content: center;
-      font-size: 60px;
+      font-size: 40px;
       font-family: "SF Pro Text Regular";
       font-weight: 800;
-      color: #1d1d1f; }
+      color: #1d1d1f;
+      padding-top: 420px; }
     .page-4 .div2 p {
       display: flex;
       justify-content: center;
       font-family: "SF Pro Text Regular";
-      font-size: 25px;
+      font-size: 20px;
       padding-top: 10px;
       color: #1d1d1f; }
     .page-4 .div2 a {
       color: #0066cc;
       align-items: flex-end;
-      padding-top: 10px; }
+      padding-top: 5px;
+      font-size: 15px; }
   .page-4 .div3 {
     grid-area: 2 / 1 / 3 / 2;
     background-image: url("/assets/img/tile_homepod_mini__b73w4z3ljymu_medium_2x.jpg");
@@ -254,15 +259,16 @@ nav {
     .page-4 .div3 header {
       display: flex;
       justify-content: center;
-      font-size: 60px;
+      font-size: 40px;
       font-family: "SF Pro Text Regular";
       font-weight: 800;
-      color: #1d1d1f; }
+      color: #1d1d1f;
+      padding-top: 70px; }
     .page-4 .div3 p {
       display: flex;
       justify-content: center;
       font-family: "SF Pro Text Regular";
-      font-size: 25px;
+      font-size: 15px;
       padding-top: 10px;
       color: #1d1d1f; }
     .page-4 .div3 a {
@@ -277,21 +283,32 @@ nav {
     .page-4 .div4 header {
       display: flex;
       justify-content: center;
-      font-size: 60px;
+      font-size: 30px;
       font-family: "SF Pro Text Regular";
-      font-weight: 800;
-      color: #1d1d1f; }
+      font-weight: bolder;
+      color: #1d1d1f;
+      padding-top: 10px; }
+    .page-4 .div4 .p-top {
+      color: #cf7c4b;
+      font-size: 12px;
+      padding-top: 50px; }
     .page-4 .div4 p {
       display: flex;
       justify-content: center;
       font-family: "SF Pro Text Regular";
-      font-size: 25px;
-      padding-top: 10px;
-      color: #1d1d1f; }
+      color: #1d1d1f;
+      padding-top: 10px; }
+    .page-4 .div4 .p-middle1 {
+      color: #df8489;
+      font-size: 15px;
+      font-weight: bold; }
+    .page-4 .div4 .p-middle2 {
+      font-size: 20px; }
     .page-4 .div4 a {
       color: #0066cc;
       align-items: flex-end;
-      padding-top: 10px; }
+      padding-top: 10px;
+      font-size: 15px; }
   .page-4 .div5 {
     grid-area: 3 / 1 / 4 / 2;
     background-image: url("/assets/img/tile__cauwwcyyn9hy_large.jpg");
@@ -300,15 +317,16 @@ nav {
     .page-4 .div5 header {
       display: flex;
       justify-content: center;
-      font-size: 60px;
+      font-size: 40px;
       font-family: "SF Pro Text Regular";
-      font-weight: 800;
-      color: #1d1d1f; }
+      font-weight: 900;
+      color: black;
+      padding-top: 60px; }
     .page-4 .div5 p {
       display: flex;
       justify-content: center;
       font-family: "SF Pro Text Regular";
-      font-size: 25px;
+      font-size: 20px;
       padding-top: 10px;
       color: #1d1d1f; }
     .page-4 .div5 a {
@@ -323,18 +341,21 @@ nav {
     .page-4 .div6 header {
       display: flex;
       justify-content: center;
-      font-size: 60px;
-      font-family: "SF Pro Text Regular";
+      font-size: 40px;
+      font-family: "Roboto", sans-serif;
       font-weight: 800;
-      color: #1d1d1f; }
-    .page-4 .div6 p {
-      display: flex;
-      justify-content: center;
-      font-family: "SF Pro Text Regular";
-      font-size: 25px;
-      padding-top: 10px;
-      color: #1d1d1f; }
+      color: #ffffff;
+      padding-top: 60px; }
+    .page-4 .div6 img {
+      padding-top: 250px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
     .page-4 .div6 a {
       color: #0066cc;
       align-items: flex-end;
-      padding-top: 10px; }
+      padding-top: 10px;
+      display: flex;
+      justify-content: center;
+      color: #F8FAFC;
+      font-size: 20px; }
