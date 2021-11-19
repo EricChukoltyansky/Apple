@@ -1,0 +1,142 @@
+/* fonts setup */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: "SF Pro Display Ultralight Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Ultralight Italic"), url("/assets/fonts/SFPRODISPLAYULTRALIGHTITALIC.woff") format("woff"); }
+
+@font-face {
+  font-family: "SF Pro Display Thin Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Thin Italic"), url("/assets/fonts/SFPRODISPLAYTHINITALIC.woff") format("woff"); }
+
+@font-face {
+  font-family: "SF Pro Display Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Light Italic"), url("/assets/fonts/SFPRODISPLAYLIGHTITALIC.woff") format("woff"); }
+
+@font-face {
+  font-family: "SF Pro Display Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Medium"), url("/assets/fonts/SFPRODISPLAYMEDIUM.woff") format("woff"); }
+
+@font-face {
+  font-family: "SF Pro Display Semibold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Semibold Italic"), url("/assets/fonts/SFPRODISPLAYSEMIBOLDITALIC.woff") format("woff"); }
+
+@font-face {
+  font-family: "SF Pro Display Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Bold"), url("/assets/fonts/SFPRODISPLAYBOLD.woff") format("woff"); }
+
+@font-face {
+  font-family: "SF Pro Display Heavy Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Heavy Italic"), url("/assets/fonts/SFPRODISPLAYHEAVYITALIC.woff") format("woff"); }
+
+@font-face {
+  font-family: "SF Pro Display Black Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Black Italic"), url("/assets/fonts/SFPRODISPLAYBLACKITALIC.woff") format("woff"); }
+
+@font-face {
+  font-family: "SF Pro Text Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Text Regular"), url("/assets/fonts/FontsFree-Net-SFProText-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "SF Pro Text Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Text Regular"), url("/assets/fonts/FontsFree-Net-SFProText-Regular.ttf"); }
+
+@font-face {
+  font-family: "SF Pro Display Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Regular"), url("/assets/fonts/SFProDisplayRegular.woff2") format("woff"); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+nav {
+  width: 100%;
+  text-align: center;
+  background: #1d1d1d;
+  opacity: 0.9;
+  backdrop-filter: blur(10px); }
+  nav ul {
+    display: flex;
+    justify-content: center; }
+    nav ul li {
+      justify-content: space-between;
+      padding-right: 2.5rem;
+      list-style: none;
+      font-family: "SF Pro Text Regular";
+      color: #dfdfe0;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 44px;
+      cursor: pointer; }
+    nav ul li:hover {
+      color: #ffffff;
+      transition: all ease-in-out 0.2s; }
+
+.white-strip {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px #cccccc solid;
+  background-color: white;
+  height: 6vh;
+  align-items: center; }
+  .white-strip p {
+    font-size: 24px;
+    color: #333333;
+    font-family: "SF Pro Display Regular";
+    padding-left: 60px;
+    font-weight: 500; }
+  .white-strip a {
+    font-family: "SF Pro Text Regular";
+    font-size: 12px;
+    color: #333333;
+    padding-right: 100px; }
+
+.page1 {
+  background-image: url("/assets/img/access/airpods-header-accessories-202110.jfif");
+  background-position: 600px 400px;
+  background-size: 80%;
+  height: 43vh; }
+  .page1 .container {
+    font-family: "SF Pro Text Regular";
+    padding-left: 455px;
+    padding-top: 45px; }
+  .page1 .p-top {
+    color: #BF4800;
+    font-size: 24px;
+    font-weight: bold; }
+  .page1 header {
+    color: #333333;
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 10px; }
+  .page1 .p-middle {
+    font-size: 22px;
+    color: #333333;
+    font-weight: 100;
+    padding-top: 10px; }

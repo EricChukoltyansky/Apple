@@ -7,3 +7,13 @@
 }
 
 $main-font: "SF Pro Text Regular";
+$access-font: "SF Pro Display Regular";
+
+@font-face {
+  font-family: "SF Pro Display Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Regular"),
+    url("/assets/fonts/SFProDisplayRegular.woff2") format("woff");
+}
+
