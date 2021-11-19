@@ -1,0 +1,63 @@
+.page-1 {
+  .red-strip {
+    background: #e34140;
+    height: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    p {
+      color: white;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      font-family: $main-font;
+      a {
+        color: #fefbfb;
+        cursor: pointer;
+      }
+    }
+  }
+  background: #fbedf9;
+  .red-apple {
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 4.5rem;
+      padding-top: 2rem;
+    }
+  }
+
+  .holiday-text {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: $main-font;
+    color: #1d1d1f;
+  }
+
+  .shop-gifts {
+    display: flex;
+    justify-content: center;
+    font-family: $main-font;
+
+    a {
+      font-size: 21px;
+      font-weight: 400;
+      color: #0066cc;
+    }
+  }
+
+  .images-1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    img {
+      width: 400px;
+      height: 400px;
+    }
+  }
+}

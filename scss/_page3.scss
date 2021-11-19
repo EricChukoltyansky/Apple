@@ -1,0 +1,31 @@
+.page-3 {
+    padding-top: 35px;
+    margin-top: 10px;
+    background-image: url("/assets/img/hero_iphone_13__f194u1rdooeq_largetall.jpg");
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    header {
+      display: flex;
+      justify-content: center;
+      font-size: 60px;
+      font-family: $main-font;
+      font-weight: 800;
+      color: white;
+    }
+    p {
+      display: flex;
+      justify-content: center;
+      font-family: $main-font;
+      font-size: 25px;
+      padding-top: 10px;
+      color: #e2acd2;
+    }
+    a {
+      color: #0066cc;
+      align-items: flex-end;
+      padding-top: 10px;
+    }
+  }

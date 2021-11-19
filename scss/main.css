@@ -1,0 +1,1036 @@
+/* fonts setup */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: "SF Pro Display Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Regular"), url("/assets/fonts/SFPRODISPLAYREGULAR.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Pro Display Ultralight Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Ultralight Italic"), url("/assets/fonts/SFPRODISPLAYULTRALIGHTITALIC.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Pro Display Thin Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Thin Italic"), url("/assets/fonts/SFPRODISPLAYTHINITALIC.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Pro Display Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Light Italic"), url("/assets/fonts/SFPRODISPLAYLIGHTITALIC.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Pro Display Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Medium"), url("/assets/fonts/SFPRODISPLAYMEDIUM.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Pro Display Semibold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Semibold Italic"), url("/assets/fonts/SFPRODISPLAYSEMIBOLDITALIC.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Pro Display Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Bold"), url("/assets/fonts/SFPRODISPLAYBOLD.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Pro Display Heavy Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Heavy Italic"), url("/assets/fonts/SFPRODISPLAYHEAVYITALIC.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Pro Display Black Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Black Italic"), url("/assets/fonts/SFPRODISPLAYBLACKITALIC.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Pro Text Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Text Regular"), url("/assets/fonts/FontsFree-Net-SFProText-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SF Pro Text Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Text Regular"), url("/assets/fonts/FontsFree-Net-SFProText-Regular.ttf");
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+  background: #1d1d1d;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  opacity: 0.9;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav ul li {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 2.5rem;
+  list-style: none;
+  font-family: "SF Pro Text Regular";
+  color: #dfdfe0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 44px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  color: #ffffff;
+  -webkit-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+.page-1 {
+  background: #fbedf9;
+}
+
+.page-1 .red-strip {
+  background: #e34140;
+  height: 4.5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-1 .red-strip p {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "SF Pro Text Regular";
+}
+
+.page-1 .red-strip p a {
+  color: #fefbfb;
+  cursor: pointer;
+}
+
+.page-1 .red-apple {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-1 .red-apple img {
+  width: 4.5rem;
+  padding-top: 2rem;
+}
+
+.page-1 .holiday-text {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "SF Pro Text Regular";
+  color: #1d1d1f;
+}
+
+.page-1 .shop-gifts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "SF Pro Text Regular";
+}
+
+.page-1 .shop-gifts a {
+  font-size: 21px;
+  font-weight: 400;
+  color: #0066cc;
+}
+
+.page-1 .images-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 2rem;
+}
+
+.page-1 .images-1 img {
+  width: 400px;
+  height: 400px;
+}
+
+.page-2 {
+  padding-top: 35px;
+  margin-top: 10px;
+  background-image: url("/assets/img/hero_iphone_13pro__dhnsegysa42u_largetall.jpg");
+  height: 70vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page-2 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 60px;
+  font-family: "SF Pro Text Regular";
+  font-weight: 800;
+  color: #1d1d1f;
+}
+
+.page-2 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "SF Pro Text Regular";
+  font-size: 25px;
+  padding-top: 10px;
+  color: #1d1d1f;
+}
+
+.page-2 a {
+  color: #0066cc;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 10px;
+}
+
+.page-3 {
+  padding-top: 35px;
+  margin-top: 10px;
+  background-image: url("/assets/img/hero_iphone_13__f194u1rdooeq_largetall.jpg");
+  height: 70vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page-3 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 60px;
+  font-family: "SF Pro Text Regular";
+  font-weight: 800;
+  color: white;
+}
+
+.page-3 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "SF Pro Text Regular";
+  font-size: 25px;
+  padding-top: 10px;
+  color: #e2acd2;
+}
+
+.page-3 a {
+  color: #0066cc;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 10px;
+}
+
+.page-4 {
+  margin-top: 10px;
+  height: 200vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.page-4 .div1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 2 / 2;
+  background-image: url("/assets/img/tile_macbookpro__cx0ur0qg9biq_large.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.page-4 .div1 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 40px;
+  font-family: "SF Pro Text Regular";
+  font-weight: 800;
+  color: #1d1d1f;
+  padding-top: 45px;
+}
+
+.page-4 .div1 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "SF Pro Text Regular";
+  font-size: 20px;
+  padding-top: 10px;
+  color: #1d1d1f;
+}
+
+.page-4 .div1 a {
+  color: #0066cc;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.page-4 .div2 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 2 / 2 / 3;
+  background-image: url("/assets/img/tile_airpods__fuv6vgn42y2q_large.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.page-4 .div2 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 40px;
+  font-family: "SF Pro Text Regular";
+  font-weight: 800;
+  color: #1d1d1f;
+  padding-top: 420px;
+}
+
+.page-4 .div2 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "SF Pro Text Regular";
+  font-size: 20px;
+  padding-top: 10px;
+  color: #1d1d1f;
+}
+
+.page-4 .div2 a {
+  color: #0066cc;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.page-4 .div3 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 1 / 3 / 2;
+  background-image: url("/assets/img/tile_homepod_mini__b73w4z3ljymu_medium_2x.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.page-4 .div3 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 40px;
+  font-family: "SF Pro Text Regular";
+  font-weight: 800;
+  color: #1d1d1f;
+  padding-top: 70px;
+}
+
+.page-4 .div3 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "SF Pro Text Regular";
+  font-size: 15px;
+  padding-top: 10px;
+  color: #1d1d1f;
+}
+
+.page-4 .div3 a {
+  color: #0066cc;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 10px;
+}
+
+.page-4 .div4 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
+  background-image: url("/assets/img/tile_watch__e9n11b6m6yq2_large.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.page-4 .div4 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  font-family: "SF Pro Text Regular";
+  font-weight: bolder;
+  color: #1d1d1f;
+  padding-top: 10px;
+}
+
+.page-4 .div4 .p-top {
+  color: #cf7c4b;
+  font-size: 12px;
+  padding-top: 50px;
+}
+
+.page-4 .div4 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "SF Pro Text Regular";
+  color: #1d1d1f;
+  padding-top: 10px;
+}
+
+.page-4 .div4 .p-middle1 {
+  color: #df8489;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.page-4 .div4 .p-middle2 {
+  font-size: 20px;
+}
+
+.page-4 .div4 a {
+  color: #0066cc;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.page-4 .div5 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 1 / 4 / 2;
+  background-image: url("/assets/img/tile__cauwwcyyn9hy_large.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.page-4 .div5 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 40px;
+  font-family: "SF Pro Text Regular";
+  font-weight: 900;
+  color: black;
+  padding-top: 60px;
+}
+
+.page-4 .div5 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "SF Pro Text Regular";
+  font-size: 20px;
+  padding-top: 10px;
+  color: #1d1d1f;
+}
+
+.page-4 .div5 a {
+  color: #0066cc;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 10px;
+}
+
+.page-4 .div6 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 2 / 4 / 3;
+  background-image: url("/assets/img/promo_dickinson__c9ea4l2f5rki_large.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.page-4 .div6 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  color: #ffffff;
+  padding-top: 60px;
+}
+
+.page-4 .div6 img {
+  padding-top: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-4 .div6 a {
+  color: #0066cc;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #f8fafc;
+  font-size: 20px;
+}
+
+.page-4 {
+  margin-top: 10px;
+  height: 200vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.page-4 .div1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 2 / 2;
+  background-image: url("/assets/img/tile_macbookpro__cx0ur0qg9biq_large.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.page-4 .div1 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 40px;
+  font-family: "SF Pro Text Regular";
+  font-weight: 800;
+  color: #1d1d1f;
+  padding-top: 45px;
+}
+
+.page-4 .div1 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "SF Pro Text Regular";
+  font-size: 20px;
+  padding-top: 10px;
+  color: #1d1d1f;
+}
+
+.page-4 .div1 a {
+  color: #0066cc;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.page-4 .div2 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 2 / 2 / 3;
+  background-image: url("/assets/img/tile_airpods__fuv6vgn42y2q_large.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.page-4 .div2 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 40px;
+  font-family: "SF Pro Text Regular";
+  font-weight: 800;
+  color: #1d1d1f;
+  padding-top: 420px;
+}
+
+.page-4 .div2 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "SF Pro Text Regular";
+  font-size: 20px;
+  padding-top: 10px;
+  color: #1d1d1f;
+}
+
+.page-4 .div2 a {
+  color: #0066cc;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.page-4 .div3 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 1 / 3 / 2;
+  background-image: url("/assets/img/tile_homepod_mini__b73w4z3ljymu_medium_2x.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.page-4 .div3 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 40px;
+  font-family: "SF Pro Text Regular";
+  font-weight: 800;
+  color: #1d1d1f;
+  padding-top: 70px;
+}
+
+.page-4 .div3 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "SF Pro Text Regular";
+  font-size: 15px;
+  padding-top: 10px;
+  color: #1d1d1f;
+}
+
+.page-4 .div3 a {
+  color: #0066cc;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 10px;
+}
+
+.page-4 .div4 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
+  background-image: url("/assets/img/tile_watch__e9n11b6m6yq2_large.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.page-4 .div4 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  font-family: "SF Pro Text Regular";
+  font-weight: bolder;
+  color: #1d1d1f;
+  padding-top: 10px;
+}
+
+.page-4 .div4 .p-top {
+  color: #cf7c4b;
+  font-size: 12px;
+  padding-top: 50px;
+}
+
+.page-4 .div4 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "SF Pro Text Regular";
+  color: #1d1d1f;
+  padding-top: 10px;
+}
+
+.page-4 .div4 .p-middle1 {
+  color: #df8489;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.page-4 .div4 .p-middle2 {
+  font-size: 20px;
+}
+
+.page-4 .div4 a {
+  color: #0066cc;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.page-4 .div5 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 1 / 4 / 2;
+  background-image: url("/assets/img/tile__cauwwcyyn9hy_large.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.page-4 .div5 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 40px;
+  font-family: "SF Pro Text Regular";
+  font-weight: 900;
+  color: black;
+  padding-top: 60px;
+}
+
+.page-4 .div5 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "SF Pro Text Regular";
+  font-size: 20px;
+  padding-top: 10px;
+  color: #1d1d1f;
+}
+
+.page-4 .div5 a {
+  color: #0066cc;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 10px;
+}
+
+.page-4 .div6 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 2 / 4 / 3;
+  background-image: url("/assets/img/promo_dickinson__c9ea4l2f5rki_large.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.page-4 .div6 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  color: #ffffff;
+  padding-top: 60px;
+}
+
+.page-4 .div6 img {
+  padding-top: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-4 .div6 a {
+  color: #0066cc;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #f8fafc;
+  font-size: 20px;
+}
+
+footer {
+  margin-top: 10px;
+  background-color: #f5f5f7;
+  color: #1d1d1f;
+}
+
+footer .text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 20vh;
+}
+
+footer .link-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+}
+
+footer .link-container div {
+  padding-right: 29px;
+  padding-bottom: 10px;
+}
+
+footer hr {
+  width: 980px;
+  position: relative;
+  left: 465px;
+}
+
+footer header {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+footer header {
+  font-family: "SF Pro Text Regular";
+}
+
+footer .two {
+  padding-left: 70px;
+}
+
+footer p {
+  font-family: "SF Pro Text Regular";
+  font-size: 12px;
+  line-height: 16px;
+  color: #6e6e73;
+  padding-top: 8px;
+}
+
+footer p a {
+  color: #6e6e73;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+footer .more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 470px;
+  padding-bottom: 10px;
+}
+
+footer .more a {
+  color: blue;
+}
+
+footer .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .bottom p {
+  padding-right: 39px;
+}
+
+footer .bottom .policies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+footer .bottom .policies li {
+  font-family: "SF Pro Text Regular";
+  font-size: 12px;
+  text-decoration: none;
+  list-style: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */
