@@ -107,7 +107,8 @@ nav {
   border-bottom: 1px #cccccc solid;
   background-color: white;
   height: 6vh;
-  align-items: center; }
+  align-items: center;
+  z-index: 1; }
   .white-strip p {
     font-size: 24px;
     color: #333333;
@@ -208,11 +209,11 @@ nav {
       .page3 .category-container .images-container p {
         position: absolute;
         top: 175px;
-        right: -85%; }
+        left: -92%; }
       .page3 .category-container .images-container div {
-        border: 1px solid #333333;
-        height: 150px;
-        width: 150px;
+        border: 0.5px solid #333333;
+        height: 140px;
+        width: 140px;
         border-radius: 50%;
         text-align: center;
         align-content: center;
@@ -220,11 +221,13 @@ nav {
         position: relative; }
         .page3 .category-container .images-container div img {
           position: absolute;
-          top: 33px;
-          right: 38px; }
+          top: 30px;
+          right: 33px; }
     .page3 .category-container a p {
-      color: #2484D1;
+      color: #2484d1;
       padding-top: 27px; }
+    .page3 .category-container a p:hover {
+      text-decoration: underline; }
   .page3 #border-top {
     border-top: 1px solid #333333;
     position: absolute;
@@ -246,3 +249,111 @@ nav {
     bottom: 0;
     left: 0px;
     width: 450px; }
+
+.page4 {
+  height: 150vh; }
+  .page4 header {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    font-size: 40px;
+    color: #333333;
+    font-weight: 800;
+    font-family: "SF Pro Text Regular"; }
+  .page4 .parent-top {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: 58vw;
+    margin: 0 auto;
+    height: 700px; }
+    .page4 .parent-top .div1 {
+      grid-area: 1 / 1 / 2 / 2;
+      background-image: url("/assets/img/access/MM2D3.png");
+      background-position: center 100px;
+      background-repeat: no-repeat;
+      background-color: #f2f2f2;
+      background-size: contain;
+      position: relative; }
+      .page4 .parent-top .div1 .p-couple {
+        text-align: center;
+        position: absolute;
+        bottom: 60px;
+        left: 60px; }
+        .page4 .parent-top .div1 .p-couple p {
+          font-family: "SF Pro Text Regular";
+          padding-bottom: 15px;
+          font-size: 17px; }
+        .page4 .parent-top .div1 .p-couple .new {
+          color: #e85d00;
+          font-size: 13px;
+          font-weight: 400; }
+    .page4 .parent-top .div2 {
+      grid-area: 1 / 2 / 2 / 4;
+      background-image: url("/assets/img/access/MM163_FV101.png");
+      background-position: center 40px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: #f2f2f2;
+      position: relative; }
+      .page4 .parent-top .div2 .p-couple {
+        text-align: center;
+        position: absolute;
+        bottom: 60px;
+        left: 225px; }
+        .page4 .parent-top .div2 .p-couple p {
+          font-family: "SF Pro Text Regular";
+          padding-bottom: 15px;
+          font-size: 17px; }
+        .page4 .parent-top .div2 .p-couple .new {
+          color: #e85d00;
+          font-size: 13px;
+          font-weight: 400; }
+  .page4 .parent-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    height: 500px;
+    width: 58vw;
+    margin: 0 auto;
+    margin-top: 10px; }
+  .page4 .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    background-image: url("/assets/img/access/airtag-single-select-202104.png");
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+    background-size: 275px 300px;
+    background-position: 50% 50px;
+    position: relative; }
+    .page4 .div1 .p-couple {
+      text-align: center;
+      position: absolute;
+      bottom: 60px;
+      left: 135px; }
+      .page4 .div1 .p-couple p {
+        font-family: "SF Pro Text Regular";
+        padding-bottom: 15px;
+        font-size: 17px; }
+      .page4 .div1 .p-couple .new {
+        color: #e85d00;
+        font-size: 13px;
+        font-weight: 400; }
+  .page4 .div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    background-image: url("/assets/img/access/ML5L3ref_FV535.png");
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+    background-size: 250px 300px;
+    background-position: 50% 50px; }
+  .page4 .div3 {
+    grid-area: 1 / 3 / 2 / 4;
+    background-image: url("/assets/img/access/MM6J3_FV102.png");
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+    background-size: 250px 300px;
+    background-position: 50% 50px; }
