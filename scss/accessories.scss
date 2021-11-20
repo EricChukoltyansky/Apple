@@ -33,8 +33,12 @@ nav {
       font-weight: 400;
       line-height: 44px;
       cursor: pointer;
+      a {
+        color: #dfdfe0;
+      }
     }
-    li:hover {
+    li:hover,
+    a:hover {
       color: #ffffff;
       transition: all ease-in-out 0.2s;
     }
@@ -105,6 +109,8 @@ nav {
   }
 }
 
+// ----- page2 ----- //
+
 .page2 {
   header {
     text-align: center;
@@ -112,7 +118,7 @@ nav {
     font-size: 30px;
     font-weight: 400;
     color: #333333;
-    padding-top:45px ;
+    padding-top: 45px;
   }
 
   .container {
@@ -132,9 +138,7 @@ nav {
     box-sizing: border-box;
     font-size: 24px;
     font-weight: 100;
-    border-radius:10px;
-    
-    
+    border-radius: 10px;
   }
 
   .fontuser {
@@ -146,5 +150,48 @@ nav {
     left: 15px;
     top: 37px;
     color: gray;
+  }
+}
+
+// ----- page3 ------ //
+
+.page3 {
+  padding-top: 50px;
+
+  p {
+    font-size: 17px;
+    color: #333333;
+    font-family: $main-font;
+    display: flex;
+    justify-content: center;
+    
+    width: 400px;
+    margin: 0 auto;
+  }
+  .category-container {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 1100px;
+    border-top: 1px solid #333333;
+    position: relative;
+    height:40vh;
+    // border: 2px solid black;
+    .images-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height:350px;
+      // border: 2px solid black
+    }
+    
+  }
+
+  #border-top {
+    border-top: 1px solid #333333;
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    left: 375px;
+    width: 170px
   }
 }

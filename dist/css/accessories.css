@@ -92,7 +92,10 @@ nav {
       font-weight: 400;
       line-height: 44px;
       cursor: pointer; }
-    nav ul li:hover {
+      nav ul li a {
+        color: #dfdfe0; }
+    nav ul li:hover,
+    nav ul a:hover {
       color: #ffffff;
       transition: all ease-in-out 0.2s; }
 
@@ -178,3 +181,33 @@ nav {
   left: 15px;
   top: 37px;
   color: gray; }
+
+.page3 {
+  padding-top: 50px; }
+  .page3 p {
+    font-size: 17px;
+    color: #333333;
+    font-family: "SF Pro Text Regular";
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin: 0 auto; }
+  .page3 .category-container {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 1100px;
+    border-top: 1px solid #333333;
+    position: relative;
+    height: 40vh; }
+    .page3 .category-container .images-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 350px; }
+  .page3 #border-top {
+    border-top: 1px solid #333333;
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    left: 375px;
+    width: 170px; }
