@@ -76,11 +76,14 @@ nav {
   height: 43vh;
   .container {
     font-family: $main-font;
-    padding-left:455px;
-    padding-top: 45px;
+    padding-left: 455px;
+    padding-top: 40px;
+    div {
+      padding-top: 20px;
+    }
   }
   .p-top {
-    color: #BF4800;
+    color: #bf4800;
     font-size: 24px;
     font-weight: bold;
     // padding-bottom:10px;
@@ -89,17 +92,18 @@ nav {
     color: #333333;
     font-size: 48px;
     font-weight: bold;
-    padding-top: 10px;
+    
   }
 
   .p-middle {
     font-size: 22px;
     color: #333333;
     font-weight: 100;
-    padding-top: 10px;
+    
   }
-a {
-  
+  a {
+    font-size: 22px;
+    color: #0070c9;
+    
+  }
 }
-}
-

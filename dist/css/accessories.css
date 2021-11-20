@@ -125,18 +125,21 @@ nav {
   .page1 .container {
     font-family: "SF Pro Text Regular";
     padding-left: 455px;
-    padding-top: 45px; }
+    padding-top: 40px; }
+    .page1 .container div {
+      padding-top: 20px; }
   .page1 .p-top {
-    color: #BF4800;
+    color: #bf4800;
     font-size: 24px;
     font-weight: bold; }
   .page1 header {
     color: #333333;
     font-size: 48px;
-    font-weight: bold;
-    padding-top: 10px; }
+    font-weight: bold; }
   .page1 .p-middle {
     font-size: 22px;
     color: #333333;
-    font-weight: 100;
-    padding-top: 10px; }
+    font-weight: 100; }
+  .page1 a {
+    font-size: 22px;
+    color: #0070c9; }
