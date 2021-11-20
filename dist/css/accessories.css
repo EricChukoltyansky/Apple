@@ -1,4 +1,3 @@
-/* fonts setup */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @font-face {
   font-family: "SF Pro Display Ultralight Italic";
@@ -333,11 +332,11 @@ nav {
     .page4 .div1 .p-couple {
       text-align: center;
       position: absolute;
-      bottom: 60px;
+      bottom: 38px;
       left: 135px; }
       .page4 .div1 .p-couple p {
         font-family: "SF Pro Text Regular";
-        padding-bottom: 15px;
+        padding-bottom: 10px;
         font-size: 17px; }
       .page4 .div1 .p-couple .new {
         color: #e85d00;
@@ -349,11 +348,185 @@ nav {
     background-repeat: no-repeat;
     background-color: #f2f2f2;
     background-size: 250px 300px;
-    background-position: 50% 50px; }
+    background-position: 50% 50px;
+    position: relative; }
+    .page4 .div2 .p-couple {
+      text-align: center;
+      position: absolute;
+      bottom: 38px;
+      left: 110px; }
+      .page4 .div2 .p-couple p {
+        font-family: "SF Pro Text Regular";
+        padding-bottom: 8px;
+        font-size: 17px; }
+      .page4 .div2 .p-couple .new {
+        color: #e85d00;
+        font-size: 13px;
+        font-weight: 400; }
   .page4 .div3 {
     grid-area: 1 / 3 / 2 / 4;
     background-image: url("/assets/img/access/MM6J3_FV102.png");
     background-repeat: no-repeat;
     background-color: #f2f2f2;
     background-size: 250px 300px;
-    background-position: 50% 50px; }
+    background-position: 50% 50px;
+    position: relative; }
+    .page4 .div3 .p-couple {
+      text-align: center;
+      position: absolute;
+      bottom: 38px;
+      left: 110px; }
+      .page4 .div3 .p-couple p {
+        font-family: "SF Pro Text Regular";
+        padding-bottom: 8px;
+        font-size: 17px; }
+      .page4 .div3 .p-couple .new {
+        color: #e85d00;
+        font-size: 13px;
+        font-weight: 400; }
+  .page4 .shop {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "SF Pro Display Regular";
+    font-size: 17px;
+    color: #0070c9;
+    cursor: pointer; }
+    .page4 .shop:hover {
+      text-decoration: underline; }
+
+.page5 {
+  margin-top: 160px; }
+  .page5 header {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "SF Pro Text Regular";
+    color: #333333;
+    text-align: center; }
+  .page5 .parent-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    height: 500px;
+    width: 58vw;
+    margin: 0 auto;
+    margin-top: 10px; }
+  .page5 .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    background-image: url("/assets/img/access/MME73.png");
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+    background-size: 275px 300px;
+    background-position: 50% 50px;
+    position: relative; }
+    .page5 .div1 .p-couple {
+      text-align: center;
+      position: absolute;
+      bottom: 38px;
+      left: 80px; }
+      .page5 .div1 .p-couple p {
+        font-family: "SF Pro Text Regular";
+        padding-bottom: 10px;
+        font-size: 17px; }
+      .page5 .div1 .p-couple .new {
+        color: #e85d00;
+        font-size: 13px;
+        font-weight: 400; }
+  .page5 .div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    background-image: url("/assets/img/access/MWP22.png");
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+    background-size: 250px 300px;
+    background-position: 50% 50px;
+    position: relative; }
+    .page5 .div2 .p-couple {
+      text-align: center;
+      position: absolute;
+      bottom: 38px;
+      left: 140px; }
+      .page5 .div2 .p-couple p {
+        font-family: "SF Pro Text Regular";
+        padding-bottom: 8px;
+        font-size: 17px; }
+      .page5 .div2 .p-couple .new {
+        color: #e85d00;
+        font-size: 13px;
+        font-weight: 400; }
+  .page5 .div3 {
+    grid-area: 1 / 3 / 2 / 4;
+    background-image: url("/assets/img/access/airpods-max-select-silver-202011.png");
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+    background-size: 250px 300px;
+    background-position: 50% 50px;
+    position: relative; }
+    .page5 .div3 .p-couple {
+      text-align: center;
+      position: absolute;
+      bottom: 38px;
+      left: 110px; }
+      .page5 .div3 .p-couple p {
+        font-family: "SF Pro Text Regular";
+        padding-bottom: 8px;
+        font-size: 17px; }
+      .page5 .div3 .p-couple .new {
+        color: #e85d00;
+        font-size: 13px;
+        font-weight: 400; }
+  .page5 .shop {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "SF Pro Display Regular";
+    font-size: 17px;
+    color: #0070c9;
+    cursor: pointer; }
+    .page5 .shop:hover {
+      text-decoration: underline; }
+
+.page6 {
+  background: #fbedf9;
+  width: 58vw;
+  margin: 0 auto;
+  margin-top: 100px; }
+  .page6 .red-strip {
+    background: #e34140;
+    height: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .page6 .red-strip p {
+      color: white;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      font-family: "SF Pro Text Regular"; }
+      .page6 .red-strip p a {
+        color: #fefbfb;
+        cursor: pointer; }
+  .page6 .holiday-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: "SF Pro Text Regular";
+    color: #1d1d1f;
+    padding-top: 50px; }
+  .page6 .shop-gifts {
+    display: flex;
+    justify-content: center;
+    font-family: "SF Pro Text Regular";
+    padding-top: 25px; }
+    .page6 .shop-gifts a {
+      font-size: 21px;
+      font-weight: 400;
+      color: #0066cc; }
+  .page6 .images-1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem; }
+    .page6 .images-1 img {
+      width: 300px;
+      height: 300px; }
