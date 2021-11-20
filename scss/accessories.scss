@@ -164,7 +164,7 @@ nav {
     font-family: $main-font;
     display: flex;
     justify-content: center;
-    
+
     width: 400px;
     margin: 0 auto;
   }
@@ -174,24 +174,65 @@ nav {
     width: 1100px;
     border-top: 1px solid #333333;
     position: relative;
-    height:40vh;
+    height: 33vh;
     // border: 2px solid black;
     .images-container {
       display: flex;
       justify-content: space-around;
       align-items: center;
-      height:350px;
-      // border: 2px solid black
+      height: 270px;
+      position: relative;
+      p {
+        position: absolute;
+        top:175px;
+        right: -85%;
+      }
+      div {
+        border: 1px solid #333333;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        position: relative;
+        img {
+          position: absolute;
+          top: 33px;
+          right: 38px;
+        }
+      }
     }
-    
+    a{
+      p{
+      color:#2484D1;
+      padding-top:27px;
+    }} 
   }
-
   #border-top {
     border-top: 1px solid #333333;
     position: absolute;
     top: 0%;
     bottom: 0;
     left: 375px;
-    width: 170px
+    width: 170px;
+  }
+  #border-bottom-left {
+    border-bottom: 1px solid #333333;
+    position: absolute;
+    top: 105.5%;
+    bottom: 0;
+    left: 645px;
+    width: 455px;
+   
+  }
+  #border-bottom-right {
+    border-top: 1px solid #333333;
+    position: absolute;
+    top: 106%;
+    bottom: 0;
+    left: 0px;
+    width: 450px;
+    
   }
 }

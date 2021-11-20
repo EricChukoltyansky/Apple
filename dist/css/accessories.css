@@ -198,12 +198,33 @@ nav {
     width: 1100px;
     border-top: 1px solid #333333;
     position: relative;
-    height: 40vh; }
+    height: 33vh; }
     .page3 .category-container .images-container {
       display: flex;
       justify-content: space-around;
       align-items: center;
-      height: 350px; }
+      height: 270px;
+      position: relative; }
+      .page3 .category-container .images-container p {
+        position: absolute;
+        top: 175px;
+        right: -85%; }
+      .page3 .category-container .images-container div {
+        border: 1px solid #333333;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        position: relative; }
+        .page3 .category-container .images-container div img {
+          position: absolute;
+          top: 33px;
+          right: 38px; }
+    .page3 .category-container a p {
+      color: #2484D1;
+      padding-top: 27px; }
   .page3 #border-top {
     border-top: 1px solid #333333;
     position: absolute;
@@ -211,3 +232,17 @@ nav {
     bottom: 0;
     left: 375px;
     width: 170px; }
+  .page3 #border-bottom-left {
+    border-bottom: 1px solid #333333;
+    position: absolute;
+    top: 105.5%;
+    bottom: 0;
+    left: 645px;
+    width: 455px; }
+  .page3 #border-bottom-right {
+    border-top: 1px solid #333333;
+    position: absolute;
+    top: 106%;
+    bottom: 0;
+    left: 0px;
+    width: 450px; }
