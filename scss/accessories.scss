@@ -552,31 +552,10 @@ nav {
 
 .page6 {
   background: #fbedf9;
-  
+
   width: 58vw;
   margin: 0 auto;
   margin-top: 100px;
-  .red-strip {
-    background: #e34140;
-    height: 4.5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    p {
-      color: white;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 21px;
-      font-family: $main-font;
-      a {
-        color: #fefbfb;
-        cursor: pointer;
-      }
-    }
-  }
-  
-  
 
   .holiday-text {
     font-weight: 400;
@@ -609,6 +588,315 @@ nav {
     img {
       width: 300px;
       height: 300px;
+    }
+  }
+}
+
+.page7 {
+  margin-top: 140px;
+
+  header {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: $main-font;
+    color: #333333;
+    text-align: center;
+  }
+
+  .parent-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    height: 500px;
+    width: 58vw;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    background-image: url("/assets/img/access/MJWY3.png");
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+    background-size: 275px 300px;
+    background-position: 50% 50px;
+    position: relative;
+
+    .p-couple {
+      text-align: center;
+      position: absolute;
+      bottom: 50px;
+      left: 90px;
+
+      p {
+        font-family: $main-font;
+        padding-bottom: 10px;
+        font-size: 17px;
+      }
+      .new {
+        color: #e85d00;
+        font-size: 13px;
+        font-weight: 400;
+      }
+    }
+  }
+  .div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    background-image: url("/assets/img/access/HPPL2.png");
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+    background-size: 250px 300px;
+    background-position: 50% 50px;
+    position: relative;
+
+    .p-couple {
+      text-align: center;
+      position: absolute;
+      bottom: 27px;
+      left: 70px;
+
+      p {
+        font-family: $main-font;
+        padding-bottom: 8px;
+        font-size: 17px;
+      }
+      .new {
+        color: #e85d00;
+        font-size: 13px;
+        font-weight: 400;
+      }
+    }
+  }
+  .div3 {
+    grid-area: 1 / 3 / 2 / 4;
+    background-image: url("/assets/img/access/MU8F2.png");
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+    background-size: 250px 300px;
+    background-position: 50% 50px;
+    position: relative;
+    .p-couple {
+      text-align: center;
+      position: absolute;
+      bottom: 38px;
+      left: 110px;
+
+      p {
+        font-family: $main-font;
+        padding-bottom: 8px;
+        font-size: 17px;
+      }
+      .new {
+        color: #e85d00;
+        font-size: 13px;
+        font-weight: 400;
+      }
+    }
+  }
+  .shop {
+    text-align: center;
+    margin-top: 30px;
+    font-family: $access-font;
+    font-size: 17px;
+    color: #0070c9;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// ----- page8 ----- //
+.page8 {
+  background: #fbedf9;
+  width: 58vw;
+  margin: 0 auto;
+  margin-top: 100px;
+
+  .p-couple {
+    text-align: center;
+    padding-top: 20px;
+    p {
+      font-family: $main-font;
+      padding-bottom: 8px;
+      font-size: 17px;
+    }
+  }
+
+  .holiday-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: $main-font;
+    color: #333333;
+    padding-top: 50px;
+  }
+
+  .shop-gifts {
+    display: flex;
+    justify-content: center;
+    font-family: $main-font;
+    padding-top: 25px;
+
+    a {
+      font-size: 17px;
+      font-weight: 400;
+      color: #0066cc;
+    }
+  }
+
+  .images-1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    img {
+      width: 100%;
+      height: 250px;
+    }
+  }
+}
+
+.page9 {
+  padding-top: 50px;
+  width: 100%;
+  background-color: #fbedf9;
+  margin-top: 10px;
+  padding-bottom: 50px;
+
+  section {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    text-align: center;
+    margin: 0 auto;
+
+    div {
+      text-align: center;
+      line-height: 25px;
+      padding-left: 120px;
+    }
+    header {
+      padding-top: 15px;
+      font-family: $main-font;
+      font-size: 19px;
+      font-weight: 600;
+      color: #1d1d1f;
+    }
+
+    p {
+      font-family: $access-font;
+      font-size: 14px;
+      font-weight: 400;
+      color: #626264;
+    }
+    a {
+      padding-top: 20px;
+      font-family: $access-font;
+      font-size: 14px;
+      color: #0066cc;
+    }
+    i {
+      color: #838388;
+    }
+  }
+}
+
+.page10 {
+  background-color: #fbedf9;
+
+  section {
+    width: 56vw;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: $access-font;
+    line-height: 19px;
+    color: #86868b;
+    border-top: 1px solid #86868b;
+    border-bottom: 1px solid #86868b;
+
+    p {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+}
+
+footer {
+  
+  background-color: #FBEDF9;
+  color: #1d1d1f;
+
+  
+  .link-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    width: 56vw;
+    margin: 0 auto;
+    border-bottom: 1px solid #86868b;
+    div {
+      padding-right: 29px;
+      padding-bottom: 10px;
+    }
+  }
+  hr {
+    width: 980px;
+    position: relative;
+    left: 465px;
+  }
+  header {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  header {
+    font-family: $main-font;
+  }
+  .two {
+    padding-left: 70px;
+  }
+  p {
+    font-family: $main-font;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6e6e73;
+    padding-top: 8px;
+    a {
+      color: #6e6e73;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  .more {
+    display: flex;
+    justify-content: center;
+    padding-right: 470px;
+    padding-bottom: 10px;
+    a {
+      color: blue;
+    }
+  }
+  .bottom {
+    display: flex;
+    justify-content: center;
+    p {
+      padding-right: 39px;
+    }
+    .policies {
+      display: flex;
+      align-content: flex-end;
+      li {
+        font-family: $main-font;
+        font-size: 12px;
+        text-decoration: none;
+        list-style: none;
+      }
     }
   }
 }
