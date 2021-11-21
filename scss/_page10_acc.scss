@@ -1,0 +1,19 @@
+.page10 {
+  background-color: #fbedf9;
+
+  section {
+    width: 56vw;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: $access-font;
+    line-height: 19px;
+    color: #86868b;
+    border-top: 1px solid #86868b;
+    border-bottom: 1px solid #86868b;
+
+    p {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+}

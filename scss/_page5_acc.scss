@@ -1,0 +1,117 @@
+.page5 {
+    // height: 100vh;
+    margin-top: 160px;
+  
+    header {
+      font-size: 40px;
+      font-weight: 700;
+      font-family: $main-font;
+      color: #333333;
+      text-align: center;
+    }
+  
+    .parent-bottom {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+      height: 500px;
+      width: 58vw;
+      margin: 0 auto;
+      margin-top: 10px;
+    }
+  
+    .div1 {
+      grid-area: 1 / 1 / 2 / 2;
+      background-image: url("/assets/img/access/MME73.png");
+      background-repeat: no-repeat;
+      background-color: #f2f2f2;
+      background-size: 275px 300px;
+      background-position: 50% 50px;
+      position: relative;
+  
+      .p-couple {
+        text-align: center;
+        position: absolute;
+        bottom: 38px;
+        left: 80px;
+  
+        p {
+          font-family: $main-font;
+          padding-bottom: 10px;
+          font-size: 17px;
+        }
+        .new {
+          color: #e85d00;
+          font-size: 13px;
+          font-weight: 400;
+        }
+      }
+    }
+    .div2 {
+      grid-area: 1 / 2 / 2 / 3;
+      background-image: url("/assets/img/access/MWP22.png");
+      background-repeat: no-repeat;
+      background-color: #f2f2f2;
+      background-size: 250px 300px;
+      background-position: 50% 50px;
+      position: relative;
+  
+      .p-couple {
+        text-align: center;
+        position: absolute;
+        bottom: 38px;
+        left: 140px;
+  
+        p {
+          font-family: $main-font;
+          padding-bottom: 8px;
+          font-size: 17px;
+        }
+        .new {
+          color: #e85d00;
+          font-size: 13px;
+          font-weight: 400;
+        }
+      }
+    }
+    .div3 {
+      grid-area: 1 / 3 / 2 / 4;
+      background-image: url("/assets/img/access/airpods-max-select-silver-202011.png");
+      background-repeat: no-repeat;
+      background-color: #f2f2f2;
+      background-size: 250px 300px;
+      background-position: 50% 50px;
+      position: relative;
+      .p-couple {
+        text-align: center;
+        position: absolute;
+        bottom: 38px;
+        left: 110px;
+  
+        p {
+          font-family: $main-font;
+          padding-bottom: 8px;
+          font-size: 17px;
+        }
+        .new {
+          color: #e85d00;
+          font-size: 13px;
+          font-weight: 400;
+        }
+      }
+    }
+    .shop {
+      text-align: center;
+      margin-top: 30px;
+      font-family: $access-font;
+      font-size: 17px;
+      color: #0070c9;
+      cursor: pointer;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }

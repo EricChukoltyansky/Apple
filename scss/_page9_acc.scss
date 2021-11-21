@@ -1,0 +1,44 @@
+.page9 {
+    padding-top: 50px;
+    width: 100%;
+    background-color: #fbedf9;
+    margin-top: 10px;
+    padding-bottom: 50px;
+  
+    section {
+      display: flex;
+      justify-content: space-between;
+      width: 50vw;
+      text-align: center;
+      margin: 0 auto;
+  
+      div {
+        text-align: center;
+        line-height: 25px;
+        padding-left: 120px;
+      }
+      header {
+        padding-top: 15px;
+        font-family: $main-font;
+        font-size: 19px;
+        font-weight: 600;
+        color: #1d1d1f;
+      }
+  
+      p {
+        font-family: $access-font;
+        font-size: 14px;
+        font-weight: 400;
+        color: #626264;
+      }
+      a {
+        padding-top: 20px;
+        font-family: $access-font;
+        font-size: 14px;
+        color: #0066cc;
+      }
+      i {
+        color: #838388;
+      }
+    }
+  }

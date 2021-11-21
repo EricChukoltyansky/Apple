@@ -65,61 +65,6 @@
   font-weight: normal;
   src: local("SF Pro Display Regular"), url("/assets/fonts/SFProDisplayRegular.woff2") format("woff"); }
 
-* {
-  margin: 0;
-  padding: 0; }
-
-a {
-  text-decoration: none; }
-
-nav {
-  width: 100%;
-  text-align: center;
-  background: #1d1d1d;
-  opacity: 0.9;
-  backdrop-filter: blur(10px); }
-  nav ul {
-    display: flex;
-    justify-content: center; }
-    nav ul li {
-      justify-content: space-between;
-      padding-right: 2.5rem;
-      list-style: none;
-      font-family: "SF Pro Text Regular";
-      color: #dfdfe0;
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 44px;
-      cursor: pointer; }
-      nav ul li a {
-        color: #dfdfe0; }
-    nav ul li:hover,
-    nav ul a:hover {
-      color: #ffffff;
-      transition: all ease-in-out 0.2s; }
-
-.white-strip {
-  position: sticky;
-  top: 0px;
-  display: flex;
-  justify-content: space-around;
-  border-bottom: 1px #cccccc solid;
-  background-color: white;
-  height: 6vh;
-  align-items: center;
-  z-index: 1; }
-  .white-strip p {
-    font-size: 24px;
-    color: #333333;
-    font-family: "SF Pro Display Regular";
-    padding-left: 60px;
-    font-weight: 500; }
-  .white-strip a {
-    font-family: "SF Pro Text Regular";
-    font-size: 12px;
-    color: #333333;
-    padding-right: 100px; }
-
 .page1 {
   background-image: url("/assets/img/access/airpods-header-accessories-202110.jfif");
   background-position: 600px 400px;
@@ -695,12 +640,67 @@ nav {
       padding-top: 15px;
       padding-bottom: 15px; }
 
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+nav {
+  width: 100%;
+  text-align: center;
+  background: #1d1d1d;
+  opacity: 0.9;
+  backdrop-filter: blur(10px); }
+  nav ul {
+    display: flex;
+    justify-content: center; }
+    nav ul li {
+      justify-content: space-between;
+      padding-right: 2.5rem;
+      list-style: none;
+      font-family: "SF Pro Text Regular";
+      color: #dfdfe0;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 44px;
+      cursor: pointer; }
+      nav ul li a {
+        color: #dfdfe0; }
+    nav ul li:hover,
+    nav ul a:hover {
+      color: #ffffff;
+      transition: all ease-in-out 0.2s; }
+
+.white-strip {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px #cccccc solid;
+  background-color: white;
+  height: 6vh;
+  align-items: center;
+  z-index: 1; }
+  .white-strip p {
+    font-size: 24px;
+    color: #333333;
+    font-family: "SF Pro Display Regular";
+    padding-left: 60px;
+    font-weight: 500; }
+  .white-strip a {
+    font-family: "SF Pro Text Regular";
+    font-size: 12px;
+    color: #333333;
+    padding-right: 100px; }
+
 footer {
-  background-color: #FBEDF9;
+  background-color: #fbedf9;
   color: #1d1d1f; }
   footer .link-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 20px;
     width: 56vw;
     margin: 0 auto;
@@ -708,14 +708,9 @@ footer {
     footer .link-container div {
       padding-right: 29px;
       padding-bottom: 10px; }
-  footer hr {
-    width: 980px;
-    position: relative;
-    left: 465px; }
   footer header {
     font-size: 12px;
-    font-weight: bold; }
-  footer header {
+    font-weight: bold;
     font-family: "SF Pro Text Regular"; }
   footer .two {
     padding-left: 70px; }
@@ -730,20 +725,19 @@ footer {
     footer p a:hover {
       text-decoration: underline; }
   footer .more {
-    display: flex;
-    justify-content: center;
-    padding-right: 470px;
+    width: 56vw;
+    margin: 0 auto;
     padding-bottom: 10px; }
     footer .more a {
       color: blue; }
   footer .bottom {
     display: flex;
-    justify-content: center; }
-    footer .bottom p {
-      padding-right: 39px; }
+    justify-content: space-between;
+    width: 56vw;
+    margin: 0 auto; }
     footer .bottom .policies {
       display: flex;
-      align-content: flex-end; }
+      align-content: space-around; }
       footer .bottom .policies li {
         font-family: "SF Pro Text Regular";
         font-size: 12px;

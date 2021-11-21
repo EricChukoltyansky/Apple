@@ -1,0 +1,35 @@
+.page1 {
+    background-image: url("/assets/img/access/airpods-header-accessories-202110.jfif");
+    background-position: 600px 400px;
+    background-size: 80%;
+    height: 43vh;
+    .container {
+      font-family: $main-font;
+      padding-left: 455px;
+      padding-top: 40px;
+      div {
+        padding-top: 20px;
+      }
+    }
+    .p-top {
+      color: #bf4800;
+      font-size: 24px;
+      font-weight: bold;
+      // padding-bottom:10px;
+    }
+    header {
+      color: #333333;
+      font-size: 48px;
+      font-weight: bold;
+    }
+  
+    .p-middle {
+      font-size: 22px;
+      color: #333333;
+      font-weight: 100;
+    }
+    a {
+      font-size: 22px;
+      color: #0070c9;
+    }
+  }

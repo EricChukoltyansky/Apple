@@ -1,0 +1,41 @@
+.page6 {
+    background: #fbedf9;
+  
+    width: 58vw;
+    margin: 0 auto;
+    margin-top: 100px;
+  
+    .holiday-text {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 25px;
+      display: flex;
+      justify-content: center;
+      font-family: $main-font;
+      color: #1d1d1f;
+      padding-top: 50px;
+    }
+  
+    .shop-gifts {
+      display: flex;
+      justify-content: center;
+      font-family: $main-font;
+      padding-top: 25px;
+  
+      a {
+        font-size: 21px;
+        font-weight: 400;
+        color: #0066cc;
+      }
+    }
+  
+    .images-1 {
+      display: flex;
+      justify-content: center;
+      padding-top: 2rem;
+      img {
+        width: 300px;
+        height: 300px;
+      }
+    }
+  }

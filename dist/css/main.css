@@ -533,25 +533,27 @@ footer {
   margin-top: 10px;
   background-color: #f5f5f7;
   color: #1d1d1f; }
-  footer .text-container {
-    display: flex;
-    justify-content: center;
-    height: 20vh; }
+  footer .container {
+    width: 56vw;
+    margin: 0 auto;
+    border-bottom: 1px solid #86868b; }
+    footer .container .text-container {
+      display: flex;
+      justify-content: center;
+      height: 20vh; }
   footer .link-container {
     display: flex;
-    justify-content: center;
-    padding-top: 20px; }
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 56vw;
+    margin: 0 auto;
+    border-bottom: 1px solid #86868b; }
     footer .link-container div {
       padding-right: 29px;
       padding-bottom: 10px; }
-  footer hr {
-    width: 980px;
-    position: relative;
-    left: 465px; }
   footer header {
     font-size: 12px;
-    font-weight: bold; }
-  footer header {
+    font-weight: bold;
     font-family: "SF Pro Text Regular"; }
   footer .two {
     padding-left: 70px; }
@@ -566,20 +568,19 @@ footer {
     footer p a:hover {
       text-decoration: underline; }
   footer .more {
-    display: flex;
-    justify-content: center;
-    padding-right: 470px;
+    width: 56vw;
+    margin: 0 auto;
     padding-bottom: 10px; }
     footer .more a {
       color: blue; }
   footer .bottom {
     display: flex;
-    justify-content: center; }
-    footer .bottom p {
-      padding-right: 39px; }
+    justify-content: space-between;
+    width: 56vw;
+    margin: 0 auto; }
     footer .bottom .policies {
       display: flex;
-      align-content: flex-end; }
+      align-content: space-around; }
       footer .bottom .policies li {
         font-family: "SF Pro Text Regular";
         font-size: 12px;

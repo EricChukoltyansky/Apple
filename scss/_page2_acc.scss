@@ -1,0 +1,41 @@
+.page2 {
+    header {
+      text-align: center;
+      font-family: $main-font;
+      font-size: 30px;
+      font-weight: 400;
+      color: #333333;
+      padding-top: 45px;
+    }
+  
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+    }
+  
+    input[type="search"] {
+      width: 725px;
+      height: 75px;
+      padding: 12px 40px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      font-size: 24px;
+      font-weight: 100;
+      border-radius: 10px;
+    }
+  
+    .fontuser {
+      position: relative;
+    }
+  
+    .fontuser i {
+      position: absolute;
+      left: 15px;
+      top: 37px;
+      color: gray;
+    }
+  }
